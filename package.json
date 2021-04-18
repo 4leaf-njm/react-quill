@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "react-quill@1.3.5",
+      "@4leaf.njm/react-quill@0.0.1",
       "/Users/min/Documents/workspace/ecommerce-react-hooks-graphql-ssr/client"
     ]
   ],
-  "_from": "react-quill@1.3.5",
-  "_id": "react-quill@1.3.5",
+  "_from": "@4leaf.njm/react-quill@0.0.1",
+  "_id": "@4leaf.njm/react-quill@0.0.1",
   "_inBundle": false,
   "_integrity": "sha512-/W/rNCW+6QpGz8yQ9tFK5Ka/h/No1RqrcOOvCIOR092OiKzRFlU2xbPEwiP3Wgy/Dx13pi1YhjReDMX/5uotJg==",
   "_location": "/react-quill",
@@ -14,9 +14,9 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "react-quill@1.3.5",
-    "name": "react-quill",
-    "escapedName": "react-quill",
+    "raw": "@4leaf.njm/react-quill@0.0.1",
+    "name": "@4leaf.njm/react-quill",
+    "escapedName": "@4leaf.njm/react-quill",
     "rawSpec": "1.3.5",
     "saveSpec": null,
     "fetchSpec": "1.3.5"
@@ -90,22 +90,14 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "react-quill",
+  "name": "@4leaf.njm/react-quill",
   "peerDependencies": {
     "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zenoamaro/react-quill.git"
-  },
-  "scripts": {
-    "build": "make build",
-    "postpack": "make clean",
-    "postpublish": "make clean",
-    "prepack": "make build",
-    "prepublish": "make build",
-    "test": "make test"
+    "url": "git+https://github.com/4leaf-njm/react-quill"
   },
   "types": "types.d.ts",
-  "version": "1.3.5"
+  "version": "0.0.1"
 }
