@@ -1,5 +1,5 @@
 import * as React from "react";
-import * as Quill from "quill";
+import * as Quill from "@4leaf.njm/quill";
 
 declare namespace ReactQuill {
 	export interface UnprivilegedEditor {
@@ -93,4 +93,4 @@ export default class ReactQuill extends React.Component<ReactQuill.ComponentProp
 	getEditor(): Quill.Quill;
 }
 
-export { Quill } from "quill";
+export { Quill } from "@4leaf.njm/quill";
